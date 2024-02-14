@@ -1,0 +1,83 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                                   SG InfoBox MT5 |
+//|                                Copyright © 2021 forexroboteasy.com |
+//|                                     Developed by Forex Robot Easy Team |
+//+------------------------------------------------------------------+
+
+//+------------------------------------------------------------------+
+//|                                Global Variables and Constants    |
+//+------------------------------------------------------------------+
+int globalVariable = 0; // Example global variable
+
+//+------------------------------------------------------------------+
+//|                                 Initialization Function         |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+     // Initialize necessary variables and resources
+
+     return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//|                                 Deinitialization Function       |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+     // Release any allocated resources
+}
+
+//+------------------------------------------------------------------+
+//|                                 Tick Event Handler              |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+     // Perform necessary actions on each tick
+     // Update and display trading information
+}
+
+//+------------------------------------------------------------------+
+//|                                 Custom Functions                |
+//+------------------------------------------------------------------+
+void CustomFunction1()
+{
+     // Implement necessary trading function 1
+}
+
+void CustomFunction2()
+{
+     // Implement necessary trading function 2
+}
+
+//+------------------------------------------------------------------+
+//|                                 Main Program Entry Point        |
+//+------------------------------------------------------------------+
+void OnStart()
+{
+     // Perform main program logic
+     // Display SG InfoBox MT5 window
+     
+     CustomFunction1();
+     CustomFunction2();
+     
+     // ...
+     
+     globalVariable = 1; // Example code with logical conclusion
+}
+
+//+------------------------------------------------------------------+
+//|                                 Error Handling Function         |
+//+------------------------------------------------------------------+
+void OnError(const int error_code, const string error_message)
+{
+     // Handle any errors that occur during program execution
+}
+
+//+------------------------------------------------------------------+
+//|                                 Exception Handling Function     |
+//+------------------------------------------------------------------+
+void OnException(const int exception_code)
+{
+     // Handle any exceptions that occur during program execution
+}
